@@ -17,7 +17,7 @@ ctk.set_default_color_theme("blue")
 class ImageSearchApp(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("Sam's Image Finder with CLIP")
+        self.title("EDAI Image Finder with CLIP")
         self.geometry("1200x800")
         
         # Initialize AI Model
