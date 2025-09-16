@@ -140,7 +140,7 @@ class ImageSearchApp(ctk.CTk):
         
         self.folder_btn = ctk.CTkButton(
             folder_frame,
-            text="📁 Select Image Folder",
+            text="Select Image Folder",
             command=self.select_folder,
             height=40,
             corner_radius=20,
